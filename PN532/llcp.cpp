@@ -98,6 +98,8 @@ int8_t LLCP::waitForDisconnection(uint16_t timeout)
         }
 
     } while (1);
+    // TODO: use timeout?
+
 
     // Put DM PDU
     DMSG("put a DM(Disconnect Mode) PDU to response the DISC PDU\n");

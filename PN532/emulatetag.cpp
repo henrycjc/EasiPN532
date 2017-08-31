@@ -120,7 +120,7 @@ bool EmulateTag::emulate(const uint16_t tgInitAsTargetTimeout){
   uint8_t sendlen;
   int16_t status;
   tag_file currentFile = NONE;
-  uint16_t cc_size = sizeof(compatibility_container);
+  //uint16_t cc_size = sizeof(compatibility_container);
   bool runLoop = true;
 
   while(runLoop){
